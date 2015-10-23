@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andy's Food Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body style="background-color: aqua">
+    <script src="jquery%20copy.js"></script>
+    <script src="js.js"></script>
+
+    <!--# # # # # # # -->
+    <!-- HEAD DIV -->
+    <!--# # # # # # # -->
+    <div id="head">
+        <div id="header">
+                <h1>Andy's Food Tracker</h1>
+        </div>
+        <div id="header2">
+                <h3>A West-MEC Creation</h3>
+        </div>
+    </div>
+
+    <!--# # # # # -->
+    <!-- MAIN DIV -->
+    <!--# # # # # -->
+
+    <div id="main">
+        <p style="color: white">.</p>
+        <form>
+            <label for="foodItem">Food Item: </label>                  <input type="text" id="foodItem">
+            <label for="shelfLife">Shelf Life: </label>                <input type="text" id="shelfLife">
+            <label for="dateOfPurchase">Date of Purchase: </label>     <input type="date" id="dateOfPurchase">
+            <label for="dateOfExpiration">Date of Expiration: </label> <input type="date" id="dateOfExpiration"><br>
+            <p style="color: white">.</p>
+            <label for="description">Description: </label><textarea name="description" id="description" style="width:500px; height:50px"></textarea>
+            <button onClick="addRow()">Submit</button>
+        </form>
+
+        <p style="color: white">.</p>
+        <table id="tb">
+            <!--table header below-->
+            <tr style="font-family: impact">
+                <td width="200px">Food Item</td>
+                <td width="350xp">Description</td>
+                <td width="150px">Shelf Life</td>
+                <td width="150px">Date of Purchase</td>
+                <td width="150px">Date of Expiration</td>
+            </tr>
+            <!--table inputs below-->
+            <tr id="tr1"></tr>
+
+        </table>
+        <p style="color: white">.</p>
+    </div>
+
+    <!--# # # # # -->
+    <!-- FOOT DIV -->
+    <!--# # # # # -->
+
+    <div id="foot">
+        <p style="color: white">.</p>
+        <p>Andy's Food Tracker</p>
+        <p>Copyright &copy; 2015 Jerardo A. Diaz</p>
+        <p><img src="http://images.clipartpanda.com/computer-monitor-png-computer-monitor-icon-png.png" style="width:60px; height: 50px"></p>
+        <p style="color: white">.</p>
+    </div>
+
+</body>
+</html>

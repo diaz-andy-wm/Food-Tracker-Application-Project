@@ -1,0 +1,34 @@
+#head{
+    font-family: impact;
+}
+#header{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#header2{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+#main{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+#foot{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+textarea {
+    vertical-align: top;
+}​
