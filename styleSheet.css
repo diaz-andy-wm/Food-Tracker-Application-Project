@@ -1,7 +1,12 @@
+body {
+    background-image: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/9/94/94793/13_flat_food_seamless-o.jpg?1397052915");
+    background-size: 100%;
+}
 #head{
     font-family: impact;
 }
 #header{
+    border-radius: 10px;
     background-color: white;
     text-align: center;
     margin-left: auto;
@@ -9,6 +14,7 @@
     width: 400px;
 }
 #header2{
+    border-radius: 5px;
     background-color: white;
     text-align: center;
     margin-left: auto;
@@ -16,6 +22,7 @@
     width: 250px;
 }
 #main{
+    border-radius: 50px;
     background-color: white;
     text-align: center;
     margin-left: auto;
@@ -23,12 +30,18 @@
     width: 1200px;
 }
 #foot{
+    border-radius: 25px;
     background-color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
+table {
+     margin-left: auto;
+     margin-right: auto;
+}
 textarea {
     vertical-align: top;
 }​
+

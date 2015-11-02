@@ -3,14 +3,15 @@
 <head>
     <title>Andy's Food Tracker</title>
     <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script type="text/javascript" src="jquery%20copy.js"></script>
+    <script type="text/javascript" src="js.js"></script>
 </head>
-<body style="background-color: aqua">
-    <script src="jquery%20copy.js"></script>
-    <script src="js.js"></script>
+<body>
 
-    <!--# # # # # # # -->
+    <!--# # # # # -->
     <!-- HEAD DIV -->
-    <!--# # # # # # # -->
+    <!--# # # # # -->
+
     <div id="head">
         <div id="header">
                 <h1>Andy's Food Tracker</h1>
@@ -27,17 +28,21 @@
     <div id="main">
         <p style="color: white">.</p>
         <form>
-            <label for="foodItem">Food Item: </label>                  <input type="text" id="foodItem">
-            <label for="shelfLife">Shelf Life: </label>                <input type="text" id="shelfLife">
-            <label for="dateOfPurchase">Date of Purchase: </label>     <input type="date" id="dateOfPurchase">
-            <label for="dateOfExpiration">Date of Expiration: </label> <input type="date" id="dateOfExpiration"><br>
+            <label for="foodItem">Food Item: </label>                  <input type="text" name="foodItem" id="foodItem">
+            <label for="shelfLife">Shelf Life: </label>                <input type="text" name="shelfLife" id="shelfLife">
+            <label for="dateOfPurchase">Date of Purchase: </label>     <input type="date" name="dateOfPurchase" id="dateOfPurchase">
+            <label for="dateOfExpiration">Date of Expiration: </label> <input type="date" name="dateOfExpiration" id="dateOfExpiration"><br>
             <p style="color: white">.</p>
             <label for="description">Description: </label><textarea name="description" id="description" style="width:500px; height:50px"></textarea>
-            <button onClick="addRow()">Submit</button>
+            <button type="button" id="submit">Submit</button>
+            <p style="color: white">.</p>
+            <p style="color: red">ATTENTION:</p>if food item cell is green, that food item is expired!!
         </form>
 
+
+
         <p style="color: white">.</p>
-        <table id="tb">
+        <table id="tableID">
             <!--table header below-->
             <tr style="font-family: impact">
                 <td width="200px">Food Item</td>
@@ -47,8 +52,6 @@
                 <td width="150px">Date of Expiration</td>
             </tr>
             <!--table inputs below-->
-            <tr id="tr1"></tr>
-
         </table>
         <p style="color: white">.</p>
     </div>
